@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
                     int userHieght= Integer.parseInt(editHieght.getText().toString());
                     bundle.putInt("weight",userWeight);
                     bundle.putInt("hieght",userHieght);
+                    myFisrtFragment.setArguments(bundle);
+                    fragmentTransaction.add(R.id.frame,myFisrtFragment);
+                    fragmentTransaction.commit();
                 }
             });
 
