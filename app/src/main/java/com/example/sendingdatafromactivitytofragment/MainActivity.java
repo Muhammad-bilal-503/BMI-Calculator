@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     Bundle bundle=new Bundle();
                     int userWeight= Integer.parseInt(editWeight.getText().toString());
-                    int userHieght= Integer.parseInt(editHieght.getText().toString());
+                    int userHeight= Integer.parseInt(editHieght.getText().toString());
                     bundle.putInt("weight",userWeight);
-                    bundle.putInt("hieght",userHieght);
+                    bundle.putInt("height",userHeight);
                     myFisrtFragment.setArguments(bundle);
                     fragmentTransaction.add(R.id.frame,myFisrtFragment);
                     fragmentTransaction.commit();
