@@ -26,7 +26,7 @@ This app provides a range of features for complete BMI tracking:
 ### Installation
 1. **Clone the repo**
 
-git clone https://github.com/Muhammad-bilal-503/BMI-Calculator
+**git clone**: https://github.com/Muhammad-bilal-503/BMI-Calculator
 
 
 2. **Open in Android Studio**
@@ -68,10 +68,10 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more info.
 
 ## 📫 Contact
 
-**Your Name**  
-[your.email@example.com](mailto:your.mughalbillal0012345.com)  
+**Muhammad Bilal**  
+[mughalbillal0012345@gmail.com](mughalbillal0012345@gmail.com)  
 
-**Project Link**: [https://github.com/your-username/BMI-Calculator-Android](https://github.com/Muhammad-bilal-503/BMI-Calculator)
+**Project Link**: [https://github.com/Muhammad-bilal-503/BMI-Calculator](https://github.com/Muhammad-bilal-503/BMI-Calculator)
 
 ---
 
