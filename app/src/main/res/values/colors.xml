@@ -4,4 +4,5 @@
     <color name="normal">#4CAF50</color>
     <color name="overweight">#FF9800</color>
     <color name="obese">#F44336</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
 </resources>

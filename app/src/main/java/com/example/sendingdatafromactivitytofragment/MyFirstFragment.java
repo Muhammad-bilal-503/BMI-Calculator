@@ -51,24 +51,24 @@ public class MyFirstFragment extends Fragment {
                 result.setText(String.format("Your BMI is: %.2f", userBmi));
 
                 String bmiCategory;
-                int color;
+                int colorResId;
 
                 if (userBmi < 18.5) {
                     bmiCategory = "Underweight";
-                    color = R.color.underweight;
+                    colorResId = R.color.underweight;
                 } else if (userBmi < 25) {
                     bmiCategory = "Normal";
-                    color = R.color.normal;
+                    colorResId = R.color.normal;
                 } else if (userBmi < 30) {
                     bmiCategory = "Overweight";
-                    color = R.color.overweight;
+                    colorResId = R.color.overweight;
                 } else {
                     bmiCategory = "Obese";
-                    color = R.color.obese;
+                    colorResId = R.color.obese;
                 }
 
                 category.setText(bmiCategory);
-                category.setTextColor(ContextCompat.getColor(getContext(), color));
+                category.setTextColor(ContextCompat.getColor(requireContext(), colorResId));
 
                 if (listener != null) {
                     listener.onBmiCalculated(userBmi, bmiCategory);
